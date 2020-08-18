@@ -8,41 +8,51 @@
     tools:context="com.js.firebaseauthentication.ProfileActivity">
 
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_margin="16dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
 
         <ImageView
-            android:src="@mipmap/ic_launcher"
-            android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_launcher" />
 
         <TextView
             android:id="@+id/textviewUserEmail"
-            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="16dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:text="" />
 
         <Button
             android:id="@+id/buttonLogout"
-            android:text="로그아웃"
-            android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="로그아웃" />
 
         <TextView
-            android:text="회원탈퇴 합니다."
             android:id="@+id/textviewDelete"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/colorAccent"
-            android:layout_margin="16dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:text="회원탈퇴 합니다."
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/goToMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="확인" />
     </LinearLayout>
 </RelativeLayout>

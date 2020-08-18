@@ -27,12 +27,24 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     private TextView textViewUserEmail;
     private Button buttonLogout;
     private TextView textivewDelete;
+    private Button goToMain;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+        goToMain = (Button) findViewById(R.id.goToMain);
+
+        //확인 누를시 메인화면으로 연결
+        goToMain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MainActivityCal.class);
+                startActivity(intent);
+            }
+        });
+
 
         //initializing views
         textViewUserEmail = (TextView) findViewById(R.id.textviewUserEmail);

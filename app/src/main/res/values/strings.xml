@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">login10</string>
+    <string name="menu">menu</string>
+    <string name="did_u">Did U?</string>
+    <string name="user">user</string>
+    <string name="ShowList">showList</string>
+    <string name="add">add</string>
+    <string name="my_list">My List</string>
+    <string name="planName">PlanName</string>
+    <string name="memo">Memo</string>
+    <string name="PlanTime">8:00</string>
+    <string name="currentDate">2020-08-17</string>
+    <string name="on">ON</string>
+    <string name="addButton">+</string>
+    <string name="add_new_plan">Add New Plan</string>
+    <string name="plan">Plan</string>
+    <string name="what_is_your_plan">What is your plan?</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="Alarm">Alarm</string>
+    <string name="write_memo">Write your memo.</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="edit_plan">Edit Plan</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="delete">Delete</string>
+    <string name="complete">O</string>
+    <string name="unComplete">X</string>
+    <string name="showList">▤</string>
+    <string name="Menu">||</string>
+    <string name="todo">TODO</string>
+    <string name="backHome"><![CDATA[<]]></string>
 </resources>
